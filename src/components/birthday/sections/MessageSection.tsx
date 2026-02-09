@@ -3,16 +3,16 @@ import { motion } from 'framer-motion';
 import { useMouseParallax } from '@/hooks/useMouseParallax';
 import { ArrowRight, Heart } from 'lucide-react';
 
-const MESSAGE = `Kakakku yang tersayang,
+const MESSAGE = `Untuk Rardha,
 
-Terima kasih telah menjadi bagian terindah dalam hidupku. Setiap momen bersamamu adalah kenangan yang tak ternilai harganya.
+Terima kasih telah menjadi bagian indah di dunia ini. Setiap momen bersamamu adalah kenangan yang tak ternilai harganya.
 
 Di hari spesialmu ini, aku ingin kamu tahu betapa berharganya dirimu. Kamu selalu menjadi inspirasi, pelindung, dan sahabat terbaikku.
 
 Semoga tahun ini membawa lebih banyak kebahagiaan, cinta, dan mimpi yang terwujud untukmu.
 
 Dengan sepenuh hati,
-Adikmu ❤️`;
+Dari Bumi ❤️`;
 
 interface Props {
   onNext: () => void;
