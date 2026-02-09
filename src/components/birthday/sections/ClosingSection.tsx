@@ -124,7 +124,7 @@ const ClosingSection = ({ answers }: Props) => {
             transition={{ delay: 1 }}
             className="mt-4 text-primary-foreground/80 font-display italic text-lg"
           >
-            Dengan cinta, Adikmu
+            Dengan kita, bersamamu :)
           </motion.p>
 
           <motion.div
