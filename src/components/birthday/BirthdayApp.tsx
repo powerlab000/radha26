@@ -6,6 +6,7 @@ import MemoryGameSection from './sections/MemoryGameSection';
 import QuestionsSection from './sections/QuestionsSection';
 import MessageSection from './sections/MessageSection';
 import GallerySection from './sections/GallerySection';
+import VoiceMessagesSection from './sections/VoiceMessagesSection';
 import ClosingSection from './sections/ClosingSection';
 
 const JOURNEY_SECTIONS = [
@@ -13,6 +14,7 @@ const JOURNEY_SECTIONS = [
   { id: 'questions', label: 'Refleksi' },
   { id: 'message', label: 'Pesan Hati' },
   { id: 'gallery', label: 'Kenangan' },
+  { id: 'voicemessages', label: 'Pesan Suara' },
   { id: 'closing', label: 'Penutup' },
 ];
 
@@ -70,6 +72,8 @@ const BirthdayApp = () => {
       case 3:
         return <GallerySection onNext={goNext} />;
       case 4:
+        return <VoiceMessagesSection onNext={goNext} />;
+      case 5:
         return <ClosingSection answers={answers} />;
       default:
         return null;
