@@ -50,7 +50,7 @@ const GallerySection = ({ onNext }: Props) => {
           transition={{ delay: 0.4 }}
           className="text-center mt-4 text-lg font-display text-foreground italic"
         >
-          &ldquo;Momen pertama kita bersama&rdquo;
+          &ldquo;Lihat Aku !!&rdquo;
         </motion.p>
       </div>
     </section>
